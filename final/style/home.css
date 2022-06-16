@@ -1,0 +1,218 @@
+/* <!--  NICOLETTI FRANCO IVAN   (͠◉_◉᷅ ) --> */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    z-index: 1;
+    background-color: #3d0028;  
+}
+.title {
+    text-align: center;
+    top: 35%;
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+}
+
+/* MENU DEL HEADER */
+#header {
+    z-index: 200;
+    background-color: #3D0000;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    height: 100px;
+    position: absolute;
+}
+
+#header > div{
+    width: 33.3%;
+}
+
+#mainMenu{
+    padding-left: 10px;
+    padding-top: 12px;
+    text-align: left;
+}
+
+#mainMenu button:hover{
+    cursor: pointer;
+}
+
+.head-left{
+      float: left;
+      text-align: left;
+  }
+
+ .head-cent{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+ } 
+
+.head-right{
+    float: right;
+    text-align: right;
+}
+
+.home-icon{
+    width: 80px !important;
+}
+
+.img-catgroup {
+    margin-right: 10px;
+    width: auto;
+    max-height: 100px;
+}
+
+.img-catcal {
+    margin-left: 10px;
+    width: auto;
+    max-height: 100px;
+}
+
+.img-cathome {
+    margin-top: -32px;
+    width: auto;
+    max-height: 180px;
+}
+
+
+
+
+#config{
+float: right;
+}
+#config img{
+    max-height: 80px;
+    width: auto;
+    }
+#config:hover {
+    border-bottom: 2px outset rgb(0, 0, 0);
+    border-radius: 5px;
+    background-image: -webkit-gradient(
+  linear, left top, left bottom, from(#3D0000),
+  to(rgb(0, 0, 0)), color-stop(.99,#000000)
+);
+}
+
+
+/* container */
+.container_container {
+    width: 100%;
+    display: flex;
+    min-height: 55rem;
+}
+
+/* Contenedor izquierdo */
+.container_left{
+    position: relative;
+    background-color: #000000;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    text-align: left;
+    z-index: 4;
+}
+
+            /* fichaje */
+            .form {
+                z-index: 3;
+                position: relative;
+                top: 40%;
+                width: 400px;
+                display: table;
+                margin: -150px auto 0 auto;
+                background: #fff;
+                border-radius: 15px;
+            }
+            .fichaje {
+                text-align: center;
+                width: 90%;
+                margin: 5px auto;
+                background: #FF0000;
+                padding: 10px;
+                font-size: 28px;
+            }
+            .legajo {
+                text-align: center;
+                padding: 10px;
+            }
+            .legajo_legajo {
+                text-align: center;
+                padding: 20px;}
+                .submit {
+                    width: 45px;
+                    height: 45px;
+                    display: block;
+                    margin: 0 auto -15px auto;
+                    border-radius: 100%;
+                    border: 1px solid #3D0000;
+                    cursor: pointer;
+                    box-shadow: 0px 0px 0px 7px #fff;
+                    transition: 0.5s ease-out;
+                }
+                button {
+                    outline: none;
+                    background-color: #FF0000;
+                    color: white;
+                    padding: 8px;
+                    font-size: 16px;
+                    margin-right: 8px;
+                    border-radius: 2px;
+                }
+                   
+            
+
+                
+
+/* Contenedor derecho */
+
+.container_right {
+    position: relative;
+    background-color: #950101;
+    width: 50%;
+    padding: 20px 0px;
+    text-align: left;
+} 
+/* lista de activos*/
+            
+     
+        .listaActivos, .listaActivos_p {
+              
+                width: 70%;
+                height: auto;
+                margin: -150px auto 0 auto;
+                background: #fff;
+                border-radius: 15px;
+                text-align: center;
+                    position: relative;
+                    top: 33%;
+                    margin-bottom: 1em;
+                    
+                            
+        }
+        .activos {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-color: #000000;
+        margin-bottom: 20px;
+        }
+
+
+/* contenedor footer */
+.footer {
+    background-color: #3D0000;
+    width: auto;
+    height: 130px;
+    padding: 20px;
+    bottom: 0px;
+}

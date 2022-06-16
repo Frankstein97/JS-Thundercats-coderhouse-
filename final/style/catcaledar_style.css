@@ -1,0 +1,24 @@
+.title {
+    z-index: 444444;
+    text-align: center;
+    padding-top: 4em;
+    border-radius: 15px;
+}
+ul{
+position: center;
+}
+ul li {
+    margin: 3px;
+    padding: 1px;
+    text-align: center;
+    background-color: beige;
+}
+.imggif {
+    width: 80%;
+    height: auto;
+    padding-top: 5%;
+}
+.container_left{
+    text-align: center;
+
+}
