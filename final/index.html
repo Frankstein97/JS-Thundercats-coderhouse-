@@ -1,0 +1,95 @@
+<!-- /* index.html NICOLETTI FRANCO IVAN   (͠◉_◉᷅ ) */ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home - Nave Comando </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="style/home.css">
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- sweetalert -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.9/sweetalert2.min.css" integrity="sha512-cyIcYOviYhF0bHIhzXWJQ/7xnaBuIIOecYoPZBgJHQKFPo+TOBA+BY1EnTpmM8yKDU4ZdI3UGccNGCEUdfbBqw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+
+    <div class="container" id="container">
+        <!-- aca iria el menu principal en parte superior  -->
+                <div class="header" id="header"  class="head-left">
+                    <div id="mainMenu"> 
+        
+                    </div>
+        
+                    <div class="head-cent">
+                        <a href="catgroup.html">
+                            <img src="img/icon_catgroup.png" alt="catgroup" class="img-catgroup">
+                        </a> 
+                    
+                        <a href="index.html">
+                            <img src="img/icon_cathome.png" alt="cathome" class="img-cathome">
+                        </a> 
+            
+                        <a href="catcalendar.html">
+                                <img src="img/icon_catcalendar.png" alt="ejemplo"  class="img-catcal"> 
+                        </a>
+                    </div>
+        
+                    <div  class="head-right">
+                        <a class="user" id="config"> 
+                            <img class="user" src="img/icon_config.png" alt="ejemplo"> 
+                        </a>
+                    </div>
+        
+                </div>
+        
+        
+<!-- contenido  -->
+    <div class="container_container">
+
+    <!-- contenido izquierdo  -->
+        <div class="container_left" id="container_left">
+            <h1 class="title"> Home </h1>
+            <form class="form" id="form" action="/index" >
+                    <legend class="fichaje"> CheckIn </legend>
+                    <div class="legajo">
+                        <input class= legajo_legajo type="text" placeholder="Legajo" required />
+                    </div>
+                    <button type="submit" class="submit" value="enviar"></button>
+            </form>
+        </div>
+    <!-- contenido derecho  -->   
+        <div class="container_right" id="container_right">
+            
+            
+            <div class="listaActivos" id="employeesList">
+                <p class="listaActivos_p">LISTA ACTIVOS</p>
+            </div>
+        </div>
+
+    </div>
+        <footer class="footer">
+            <div class="datos_personales">
+                <h4></h4>
+                <div class="social-links">
+                    <a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+         <!-- toastyfy -->
+         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <!-- sweetalert en mi jss-->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--  JSS -->
+    <script src="scripts/home.js"></script>
+    
+
+</body>
+</html>
