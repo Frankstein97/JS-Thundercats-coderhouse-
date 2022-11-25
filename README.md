@@ -1,2 +1,2 @@
 # JS-Thundercats-coderhouse-
-###Este fue mi primer proyecto para Coderhouse / Javascript.
+### Este fue mi primer proyecto para Coderhouse / Javascript.
